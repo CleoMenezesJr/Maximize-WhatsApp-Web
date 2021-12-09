@@ -4,10 +4,16 @@
   "name": "Full-screen Wpp",
   "version": "1.0",
 
-  "description": "Enable full screen within Whatsapp web page.",
+  "description": "Enable full screen within WhatsApp web page.",
 
   "icons": {
-    "48": "icons/full-screen-wpp.png"
+    "48": "icons/full-screen-wpp-48.png",
+    "98": "icons/full-screen-wpp-98.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+    "id": "menezes@pm.me"
+    }
   },
 
   "content_scripts": [
