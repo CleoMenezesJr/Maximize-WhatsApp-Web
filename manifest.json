@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Full-screen Wpp",
+  "version": "1.0",
+
+  "description": "Enable full screen within Whatsapp web page.",
+
+  "icons": {
+    "48": "icons/full-screen-wpp.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://web.whatsapp.com/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}
+
