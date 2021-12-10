@@ -1,8 +1,10 @@
-const changeSize = document.getElementsByClassName("_1XkO3")[0];
-changeSize.style.width = "100vw";
-changeSize.style.height = "98vh";
+const checkExist = setInterval(() => {
+    const classElement = document.getElementsByClassName("_1XkO3");
+    const setBgColor = document.querySelector('.dark')
 
-const changeBg = document.querySelector('.dark');
-if (changeBg != null) {
-    changeBg.style.setProperty('--app-background', '#009688');
-}
+    if (classElement != null) {
+        classElement[0].style = 'width: 100vw; height: 98vh'
+        setBgColor.style.setProperty('--app-background', '#009688');
+        clearInterval(checkExist);
+    }
+}, 100);
