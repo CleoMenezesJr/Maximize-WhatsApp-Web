@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.32026164"
+     inkscape:cx="301.31613"
+     inkscape:cy="424.65279"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2044"
+       transform="translate(48.976174,41.6908)"
+       inkscape:export-filename="/home/cleomenezesjr/g2044.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         d="m 90.99407,125.20837 c -1.09883,0 -1.980986,0.88214 -1.980986,1.98096 v 5.94298 c 0,1.09882 0.882156,1.98096 1.980986,1.98096 h 1.408362 c -1.330979,4.48821 -4.844145,8.00915 -9.332323,9.33236 v -1.40834 c 0,-1.0989 -0.889903,-1.98104 -1.98099,-1.98104 h -5.942975 c -1.098838,0 -1.980996,0.88214 -1.980996,1.98104 v 2.97145 c 0,2.73163 2.213138,4.95249 4.952484,4.95249 h 0.99049 c 10.903195,0 19.809912,-8.90671 19.809912,-19.80989 v -0.99056 c 0,-2.73156 -2.22087,-4.95241 -4.952475,-4.95241 z m 0,0"
+         fill="#2e3436"
+         id="path935"
+         style="stroke-width:1.98099" />
+      <path
+         d="m 60.853796,107.19942 c -6.526037,0 -11.816924,5.27245 -11.798489,11.79849 v 37.75516 c 0,6.54448 5.254014,11.79849 11.798489,11.79849 h 39.524944 l 14.74811,14.15819 V 168.2566 c 5.49367,-1.08767 9.43879,-5.91768 9.43879,-11.50353 v -37.75516 c 0,-6.54448 -5.25401,-11.79849 -11.79849,-11.79849 z m 0,9.43879 h 51.913354 c 1.3089,0 2.3597,1.0508 2.3597,2.3597 v 37.75516 c 0,1.3089 -1.0508,2.3597 -2.3597,2.3597 H 60.853796 c -1.308896,0 -2.359697,-1.0508 -2.359697,-2.3597 v -37.75516 c 0,-1.3089 1.050801,-2.3597 2.359697,-2.3597 z m 0,0"
+         id="path1262"
+         style="fill:#2e3436;stroke-width:4.7194" />
+    </g>
+    <path
+       d="m 16.446606,55.598042 c -6.429223,0 -11.6729212,5.243698 -11.6729212,11.672921 V 172.32725 c 0,6.42924 5.2436982,11.67292 11.6729212,11.67292 H 63.13829 V 160.65433 H 28.119527 V 78.943884 H 144.84874 v 35.018766 h 23.34584 V 67.270963 c 0,-6.429223 -5.2437,-11.672921 -11.67292,-11.672921 z m 0,0"
+       fill-opacity="0.35"
+       id="path2121"
+       style="fill:#2e3436;stroke-width:11.6729"
+       inkscape:export-filename="/home/cleomenezesjr/g2044.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="m 96.572365,147.37392 c -2.006295,1.9151 -5.790866,2.18868 -8.845891,-0.18239 l -36.295489,-36.0675 v -8.80029 h 8.800285 l 36.295489,36.0675 c 2.234279,2.23428 2.097484,6.9764 0.04561,8.98268 z m 0,0"
+       id="path2125"
+       style="fill:#2e3436;stroke-width:11.6729"
+       inkscape:export-filename="/home/cleomenezesjr/g2044.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="M 86.449748,102.32374 H 39.758064 V 90.650825 h 46.691684 z m 0,0"
+       id="path2127"
+       style="fill:#2e3436;stroke-width:11.6729"
+       inkscape:export-filename="/home/cleomenezesjr/g2044.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       d="M 51.430985,137.3425 H 39.758064 V 90.650825 h 11.672921 z m 0,0"
+       id="path2129"
+       style="fill:#2e3436;stroke-width:11.6729"
+       inkscape:export-filename="/home/cleomenezesjr/g2044.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
