@@ -2,7 +2,7 @@
 
 #### Enable full screen within WhatsApp web page.
 
-[<img src="other/promotion/badges/firefox.png" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/tab-session-manager/)
+[<img src="other/promotion/badges/firefox.png" alt="for Firefox">](https://addons.mozilla.org/en-US/firefox/addon/full-screen-wpp/)
 
 <img src="other/promotion/screenshots/cs-dark.png" width="640px">
 
