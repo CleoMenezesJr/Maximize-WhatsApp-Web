@@ -1,10 +1,8 @@
 const checkExist = setInterval(() => {
-    const classElement = document.getElementsByClassName("_1XkO3");
-    const setBgColor = document.querySelector('.dark')
+    const classElement = document.getElementsByClassName("app-wrapper-web")[0];
 
     if (classElement != null) {
-        classElement[0].style = 'width: 100vw; height: 98vh'
-        setBgColor.style.setProperty('--app-background', '#009688');
+        classElement.className="_1ADa8 _3Nsgw";
         clearInterval(checkExist);
     }
 }, 100);
