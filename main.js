@@ -4,7 +4,7 @@ const checkExist = setInterval(() => {
     // const chatContainer = document.querySelector('._3K4-L');
     
     if (bodyApp != null) {
-        bodyApp.classList.add('maximize-wpp');
+        bodyApp.id = 'maximize-wpp';
         headerIconsContainer.classList.add('config-container');
         
         
@@ -28,72 +28,30 @@ const checkExist = setInterval(() => {
 
 
 function maximize() {
-    document.querySelector("._1XkO3").classList.forEach((e) => {
-        switch (e) {
+    var maximizeWppId = document.querySelector("._1XkO3");
+    maximizeWppId
+        switch (maximizeWppId.id) {
             case 'maximize-wpp':
-                let maximizeStartup = document.querySelector('.maximize-wpp')
-                maximizeStartup.classList.remove('maximize-wpp');
-                maximizeStartup.classList.add('maximize-wpp-on');
+                maximizeWppId.id = 'maximize-wpp-on';
                 break;
             case 'maximize-wpp-on':
-                let maximizeOn = document.querySelector('.maximize-wpp-on')
-                maximizeOn.classList.remove('maximize-wpp-on');
-                maximizeOn.classList.add('maximize-wpp-off');
+                maximizeWppId.id = 'maximize-wpp-off';
                 break;
             case 'maximize-wpp-off':
-                let maximizeOff = document.querySelector('.maximize-wpp-off')
-                maximizeOff.classList.remove('maximize-wpp-off');
-                maximizeOff.classList.add('maximize-wpp-on');
+                maximizeWppId.id = 'maximize-wpp-on';
                 break;
             default:
                 break;
         }
-    })
-    
 }
 
 
 const style = document.createElement('style');
 document.head.appendChild(style);
 style.sheet.insertRule(`
-    .maximize-wpp-on {
+    #maximize-wpp-on {
         width: 100% !important;
         height: 100% !important;
         position: unset !important;
     }
 `)
-
-
-function showSideBarInformation(status) {
-    const sidebarBlock = document.getElementsByClassName('ldL67 _1bLj8')[0]
-    let sideBarDiv = document.createElement('div');
-    sideBarDiv.setAttribute('class', 'post block bc2');
-    sideBarDiv.innerHTML = html;
-    console.log(status)
-    if (status == 'on') {
-        sidebarBlock.appendChild(sideBarDiv);
-    }
-    if (status == 'off') {
-        document.getElementsByClassName('post block bc2')[0].remove()
-    }
-}
-
-function showSideBar() {
-    const bodyElement = document.body;
-    if (bodyElement.classList.contains('two')) {
-        bodyElement.classList.remove('two')
-        bodyElement.classList.add('three')
-        showSideBarInformation('on')
-    }else if (bodyElement.classList.contains('three')) {
-        bodyElement.classList.remove('three')
-        bodyElement.classList.add('two')
-        showSideBarInformation('off')
-    }else {
-        bodyElement.classList.add('three')
-        showSideBarInformation('on')
-    }
-}
-
-function show() {
-    console.log('show')
-}
