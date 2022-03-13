@@ -2,7 +2,7 @@
 
 #### Enable full viewport for large aspect ratio screens in WhatsApp Web.
 
-[<img src="other/promotion/badges/firefox.png" alt="for Firefox">](https://addons.mozilla.org/en-US/firefox/addon/full-screen-wpp/)
+[<img src="other/promotion/badges/firefox.png" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/maximize-whatsapp-web/)
 
 <img src="other/promotion/screenshots/cs-dark.png" width="640px">
 
