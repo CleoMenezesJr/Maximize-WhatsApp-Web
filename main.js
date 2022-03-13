@@ -1,12 +1,14 @@
 const checkExist = setInterval(() => {
     const bodyApp = document.querySelector("._1XkO3");
     const headerIconsContainer = document.querySelector("._1QVfy._3UaCz");
+    // const chatContainer = document.querySelector('._3K4-L');
     
     if (bodyApp != null) {
         bodyApp.classList.add('maximize-wpp');
         headerIconsContainer.classList.add('config-container');
         
         
+        // toggle button
         const newDiv = document.createElement("div")
         const newButton = document.createElement("a")
         newButton.onclick = () => maximize(); 
@@ -17,6 +19,7 @@ const checkExist = setInterval(() => {
         newImage.setAttribute("src", "https://github.com/CleoMenezesJr/fullscreen-wpp/blob/main/icons/maximize-whatsapp-48.png?raw=true")
         newImage.setAttribute("height", "24px")
         headerIconsContainer.insertBefore(newDiv, headerIconsContainer.children[0]).appendChild(newButton).appendChild(newImage)
+
 
         maximize();
         clearInterval(checkExist);
@@ -49,9 +52,6 @@ function maximize() {
     
 }
 
-function appendConfig() {
-
-}
 
 const style = document.createElement('style');
 document.head.appendChild(style);
