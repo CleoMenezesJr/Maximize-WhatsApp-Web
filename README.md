@@ -8,8 +8,9 @@
 
 ### Load the extension in Firefox
 
-1. Open Firefox browser and navigate to `about:debugging`
-2. Click "Load Temporary Add-on" and from the file browser, choose `manifest.json`
+1. Clone the repository
+2. Open Firefox browser and navigate to `about:debugging`
+3. Click "Load Temporary Add-on" and from the file browser, choose `manifest.json`
 
 ## The Why
 
