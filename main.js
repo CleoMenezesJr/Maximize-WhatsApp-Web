@@ -47,8 +47,10 @@ const style = document.createElement('style');
 document.head.appendChild(style);
 style.sheet.insertRule(`
     #maximize-wpp-on, ._1iwk6 {
+        max-width: initial !important;
         width: 100% !important;
         height: 100% !important;
+        margin: 0 !important;
         position: unset !important;
     }
 `);
