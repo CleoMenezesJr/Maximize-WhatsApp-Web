@@ -14,7 +14,7 @@ const checkExist = setInterval(() => {
         newButton.setAttribute("type", "button");
         newButton.setAttribute("class", "maximize-wpp-main-button");
         const newImage = document.createElement("img");
-        newImage.setAttribute("src", "https://github.com/CleoMenezesJr/fullscreen-wpp/blob/main/icons/maximize-whatsapp-48.png?raw=true");
+        newImage.setAttribute("src", "https://github.com/CleoMenezesJr/fullscreen-wpp/blob/main/icons/maximize-button.png?raw=true");
         newImage.setAttribute("height", "24px");
         headerIconsContainer.insertBefore(newDiv, headerIconsContainer.children[0]).appendChild(newButton).appendChild(newImage);
 
