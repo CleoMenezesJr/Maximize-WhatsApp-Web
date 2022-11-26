@@ -1,56 +1,90 @@
 const checkExist = setInterval(() => {
-    const bodyApp = document.querySelector("._1XkO3");
-    const headerIconsContainer = document.querySelector("._1QVfy._3UaCz");
+  const bodyApp = document.querySelector("._1jJ70");
+  const firstMenuItem = document.querySelector(
+    "[data-testid=menu-bar-community-tab]"
+  );
 
-    if (bodyApp != null) {
-        bodyApp.id = 'maximize-wpp';
-        headerIconsContainer.classList.add('config-container');
+  if (bodyApp != null) {
+    bodyApp.id = "maximize-wpp-on";
 
-        // toggle button
-        const newDiv = document.createElement("div");
-        const newButton = document.createElement("a");
-        newButton.onclick = () => maximize();
-        newButton.style = 'padding: 8px 16px 8px 8px; display: flex; justify-items: center; cursor: pointer;';
-        newButton.setAttribute("type", "button");
-        newButton.setAttribute("class", "maximize-wpp-main-button");
-        const newImage = document.createElement("img");
-        newImage.setAttribute("src", "https://github.com/CleoMenezesJr/fullscreen-wpp/blob/main/icons/maximize-button.png?raw=true");
-        newImage.setAttribute("height", "24px");
-        headerIconsContainer.insertBefore(newDiv, headerIconsContainer.children[0]).appendChild(newButton).appendChild(newImage);
+    // Toggle button
+    const newDiv = document.createElement("div");
+    newDiv.setAttribute("class", "_2cNrC _1l5K0 _26lC3");
+    newDiv.setAttribute("title", "Toggle View");
+    const newButton = document.createElement("a");
+    newButton.onclick = () => maximize();
+    newButton.setAttribute("type", "button");
+    newButton.setAttribute("class", "maximize-wpp-main-button");
+    const newImage = document.createElement("object");
 
+    firstMenuItem.parentNode
+      .insertBefore(newDiv, firstMenuItem)
+      .appendChild(newButton)
+      .appendChild(newImage);
 
-        maximize();
-        clearInterval(checkExist);
-    };
+    clearInterval(checkExist);
+  }
 }, 100);
 
-
 function maximize() {
-    var maximizeWppId = document.querySelector("._1XkO3");
-    switch (maximizeWppId.id) {
-        case 'maximize-wpp':
-            maximizeWppId.id = 'maximize-wpp-on';
-            break;
-        case 'maximize-wpp-on':
-            maximizeWppId.id = 'maximize-wpp-off';
-            break;
-        case 'maximize-wpp-off':
-            maximizeWppId.id = 'maximize-wpp-on';
-            break;
-        default:
-            break;
-    };
-};
+  let maximizeWppId = document.querySelector("._1jJ70");
+
+  if (maximizeWppId.id === "maximize-wpp-on") {
+    maximizeWppId.id = "maximize-wpp-off";
+  } else {
+    maximizeWppId.id = "maximize-wpp-on";
+  }
+}
 
 
-const style = document.createElement('style');
-document.head.appendChild(style);
-style.sheet.insertRule(`
-    #maximize-wpp-on, ._1iwk6 {
-        max-width: initial !important;
-        width: 100% !important;
-        height: 100% !important;
-        margin: 0 !important;
-        position: unset !important;
+// Set StyleSheet
+const style = document.createElement("style");
+style.setAttribute("type", "text/css");
+style.innerHTML = `
+  /* Maximize WhatsApp Extension */
+  #maximize-wpp-on, ._1iwk6 {
+      max-width: initial !important;
+      width: 100% !important;
+      height: 100% !important;
+      margin: 0 !important;
+      position: unset !important;
+  }
+
+  .maximize-wpp-main-button {
+    display: flex;
+    justify-items: center;
+    cursor: pointer
+  }
+
+  .maximize-wpp-main-button > object {
+    height: 24px;
+    width: 24px;
+    transition: .2s;
+  }
+
+  #maximize-wpp-on .maximize-wpp-main-button > object {
+    background: url(${browser.runtime.getURL(
+      "icons/minimize-button-light.svg"
+    )}) no-repeat;
+  }
+
+  #maximize-wpp-off .maximize-wpp-main-button > object {
+    background: url(${browser.runtime.getURL(
+      "icons/maximize-button-light.svg"
+    )}) no-repeat;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    #maximize-wpp-on .maximize-wpp-main-button > object {
+      background: url(${browser.runtime.getURL(
+        "icons/minimize-button-dark.svg"
+      )}) no-repeat;
     }
-`);
+    #maximize-wpp-off .maximize-wpp-main-button > object {
+      background: url(${browser.runtime.getURL(
+        "icons/maximize-button-dark.svg"
+      )}) no-repeat;
+    }
+  }
+`;
+document.head.appendChild(style);
