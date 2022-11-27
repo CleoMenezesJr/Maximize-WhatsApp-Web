@@ -1,10 +1,16 @@
-# <sub><img src="icons/maximize-whatsapp-48.png" width=64px height=64px></sub> Maximize WhatsApp Web
+# <sub><img src="icons/maximize-whatsapp.png" width=64px height=64px></sub> Maximize WhatsApp Web
 
 #### Enable full viewport for large aspect ratio screens in WhatsApp Web
 
 [<img src="other/promotion/badges/firefox.png" alt="for Firefox">](https://addons.mozilla.org/firefox/addon/maximize-whatsapp-web/)
 
-<img src="other/promotion/screenshots/cs-dark.png" width="640px">
+<p float="left">
+  <img src="other/promotion/screenshots/split_sc.png" width="800" />
+  <img src="other/promotion/screenshots/maximized_sc.png" width="400" /> 
+  <img src="other/promotion/screenshots/default_sc.png" width="400" /> 
+</p>
+<img src="other/promotion/screenshots/btn_sc.png" width="100" /> 
+
 
 ### Load the extension in Firefox
 
