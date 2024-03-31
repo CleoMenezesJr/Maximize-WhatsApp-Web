@@ -7,7 +7,9 @@ const checkExist = setInterval(() => {
     null,
   ).singleNodeValue;
 
-  if (bodyApp != null) {
+  const loadingPage = document.documentElement.classList.contains("wf-loading");
+
+  if (bodyApp != null && loadingPage) {
     bodyApp.id = "maximize-wpp";
     clearInterval(checkExist);
   }
