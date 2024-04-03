@@ -1,11 +1,5 @@
 const checkExist = setInterval(() => {
-  const bodyApp = document.evaluate(
-    "/html/body/div[1]/div/div/div[2]",
-    document,
-    null,
-    XPathResult.FIRST_ORDERED_NODE_TYPE,
-    null,
-  ).singleNodeValue;
+  const bodyApp = document.querySelectorAll('#app > div > div:last-child')[0];
 
   const loadingPage = document.documentElement.classList.contains("wf-loading");
 
