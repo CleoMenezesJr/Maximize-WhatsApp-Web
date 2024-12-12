@@ -1,18 +1,15 @@
 {
 
   "manifest_version": 2,
-  "name": "Maximize WhatsApp Web",
-  "version": "2.3",
+  "name": "Maximize WhatsApp™ Web",
+  "version": "2.4",
 
-  "description": "Enable full viewport for large aspect ratio screens on WhatsApp Web.",
+  "description": "Enable full viewport for large aspect ratio screens on WhatsApp™ Web.",
 
   "icons": {
-    "48": "icons/maximize-whatsapp-48.png"
-  },
-  "browser_specific_settings": {
-    "gecko": {
-    "id": "menezes@pm.me"
-    }
+    "16": "icons/maximize-whatsapp-web-icon-16.png",
+    "48": "icons/maximize-whatsapp-web-icon-48.png",
+    "128": "icons/maximize-whatsapp-web-icon-128.png"
   },
   "content_scripts": [
     {

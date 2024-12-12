@@ -12,7 +12,7 @@ const checkExist = setInterval(() => {
 const style = document.createElement("style");
 style.setAttribute("type", "text/css");
 style.innerHTML = `
-  /* Maximize WhatsApp Extension */
+  /* Maximize WhatsApp™ Extension */
   #maximize-wpp {
       max-width: initial !important;
       width: 100% !important;
