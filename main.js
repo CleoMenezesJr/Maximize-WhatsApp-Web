@@ -13,7 +13,7 @@ const style = document.createElement("style");
 style.setAttribute("type", "text/css");
 style.innerHTML = `
   /* Maximize WhatsApp™ Extension */
-  #maximize-wpp {
+  #maximize-wpp > div {
       max-width: initial !important;
       width: 100% !important;
       height: 100% !important;
