@@ -1,10 +1,10 @@
 const checkExist = setInterval(() => {
-  const bodyApp = document.querySelectorAll('#app > div > div:last-child')[0];
+  const bodyApp = document.querySelectorAll('#app > div > div:last-child > div:first-child')[0];
 
   const loadingPage = document.documentElement.classList.contains("wf-loading");
 
   if (bodyApp != null && loadingPage) {
-    bodyApp.id = "maximize-wpp";
+    bodyApp.id = 'maximize-wpp';
     clearInterval(checkExist);
   }
 }, 100);
